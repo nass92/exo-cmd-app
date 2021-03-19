@@ -49,7 +49,6 @@ answer4 === 2 ? graduation += 1 : graduation += 0
 console.log(`Your grade is ${graduation}/4`)
 
 //Question 5
-//let question = readlineSync.question('Question1: Le C++ est un: \n answer 1 : language \n answer 2 : compilateur')
 console.log('Question 5: Ethereum est une blockchain publique: \n answer 1 : True \n answer 2 : False')
 let answer5 = Number(readlineSync.question('Your Answer: '))
 while (answer5 < 1 || answer5 > 2 || isNaN(Number(answer5))) {
